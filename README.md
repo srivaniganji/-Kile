@@ -1,56 +1,68 @@
-\documentclass{beamer}
+\documentclass[a4paper,10pt]{article}
 \usepackage[utf8]{inputenc}
-
-\title{My \LaTeX{}  Presentation}
-\author{Ganji Srivani}
-\date{06 August 2022}
-
-\usetheme{AnnArbor}
+\usepackage{graphicx} 
+\usepackage{xcolor}
 
 \begin{document}
+\title{\textbf{MY FIRST LATEX TASK}}
+\author{\texttt{GANJI SRIVANI}}
+\date{\underline{\textit{30/07/2022}}}
+\maketitle
+%\pagebreak
+\
+\tableofcontents
+\pagebreak
+{\color{red}\textbf{\section{PERSONAL DETAILS}} } 
+\textbf{\enspace NAME : }GANJI SRIVANI 
 
-\begin{frame}
-\titlepage
-\end{frame}
+\textbf{ID NO. : }B191432 
 
-\begin{frame}{Introduction}
-\centering
-\textbf{Name} : Ganji Srivani \\
-\textbf{ID No.} : B191432 \\
-\textbf{Class :} 021 \\
-\textbf{Branch} : CSE \\
-\textbf{Semester} : 2 \\
-\textbf{College} : RGUKT Basar \\
-\end{frame}
+\textbf{BRANCH : }CSE  
 
-\begin{frame}{COURSE DETAILS}
-\begin{table}
-\caption{This is my First Table}
-\begin{tabular}{|l |l |l |}
+\textbf{CLASS : }CSE 021 
 
- \hline
- S.no & Subject & Credits \\
- \hline
- 1 & Maths & 4 \\
- \hline
- 2 & Physics & 4 \\
- \hline
- 3 & BEE & 4 \\
- \hline
- 4 & English & 2 \\
- \hline
- 
-\end{tabular}
-\label{table1}
-\end{table}
-\end{frame}
+\textbf{COLLEGE : }RGUKT BASAR 
+\\
+{\color{green}\section{ADDRESS}}
+Devarakonda(V), Devarakonda(M), Nalgonda district(D), Telangana(S) 
+\\
+{\color{blue}\section{COURSE DETAILS}}
+\begin{tabular}{|c |c|} 
+\hline
+\textbf{Subject} & \textbf{Credits }\\
+\hline
+DEVC & 4 \\
+\hline 
+Applied Physics & 4 \\
+\hline
+Graphics & 3 \\
+\hline
+English & 2 \\
+\hline
+BEE & 4 \\
+\hline
+\end{tabular} 
+\\
+\\
+{\color{pink}\section{ACHIEVEMENTS}}
+\begin{itemize}
+\item{\textit{Best Student} at School Level} \\
+\item{10 GPA in SSC} \\
+\item{Selected for IIIT Basar} 
+\end{itemize} 
 
-\begin{frame}{Photo}
-    \begin{figure}[h]
-    \includegraphics[scale=0.1]
-    {me.jpg}
-    \caption{Me}
-    \end{figure}
-\end{frame}
-
+{\color{yellow}\section{HOBBIES}}
+\begin{itemize}
+ \item{Cooking} \\
+ \item{Reading Magazines} 
+\end{itemize}
+\pagebreak
+{\color{purple}\section{PHOTO}}
+%\begin{right}
+% \begin{figure}[h]
+% \includegraphics[scale=0.2]
+% {Me.jpg}
+%\caption{Cute Girl}
+% \end{figure}
 \end{document}
+
